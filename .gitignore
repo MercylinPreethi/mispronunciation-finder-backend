@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+mdd_env/
+
+# Model caches and large data
+model_cache/
+hf_cache/
+
+# Audio files and results
+audio_files/
+results/
+
+# Modal files
+modal/
+
+# Sub-workspace (recursive)
+mdd_cluster_workspace/
