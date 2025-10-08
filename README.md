@@ -21,15 +21,15 @@
    - Use the provided URL with --modal_url flag
 
 📋 File Structure:
-mdd_cluster_workspace/
-├── mdd_cluster.py          # Main system
-├── modal/
-│   └── phoneme_modal_server.py  # Modal server
-├── audio_files/            # Put your audio files here
-├── results/                # Output directory
-├── references.json         # Reference texts
-├── run_mdd.sh             # Convenient run script
-└── setup_env.sh           # Environment setup
+mdd_cluster_workspace/      
+├── mdd_cluster.py          # Main system          
+├── modal/     
+│   └── phoneme_modal_server.py  # Modal server          
+├── audio_files/            # Put your audio files here        
+├── results/                # Output directory         
+├── references.json         # Reference texts          
+├── run_mdd.sh             # Convenient run script       
+└── setup_env.sh           # Environment setup          
 
 💡 Usage Examples:
 
