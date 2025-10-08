@@ -3,24 +3,24 @@
 
 📁 Workspace: /DATA/mercylin/mdd_cluster_workspace
 
-🚀 Quick Start:
+🚀 Quick Start: 
 
-1. Activate environment:
-   cd mdd_cluster_workspace
-   source setup_env.sh
+1. Activate environment:    
+   cd mdd_cluster_workspace     
+   source setup_env.sh 
 
-2. Test the system:
-   python mdd_cluster.py --audio_file audio_files/your_audio.wav \
-                        --reference_text "your reference text" \
-                        --use_local_model
+2. Test the system:     
+   python mdd_cluster.py --audio_file audio_files/your_audio.wav \     
+                        --reference_text "your reference text" \     
+                        --use_local_model     
 
-3. For better performance, set up Modal Labs:
-   - Sign up at https://modal.com
-   - Run: modal setup
-   - Deploy: modal serve modal/phoneme_modal_server.py
-   - Use the provided URL with --modal_url flag
+3. For better performance, set up Modal Labs:   
+   - Sign up at https://modal.com      
+   - Run: modal setup       
+   - Deploy: modal serve modal/phoneme_modal_server.py       
+   - Use the provided URL with --modal_url flag   
 
-📋 File Structure:
+📋 File Structure:       
 mdd_cluster_workspace/      
 ├── mdd_cluster.py          # Main system          
 ├── modal/     
