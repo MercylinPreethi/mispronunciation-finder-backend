@@ -57,6 +57,7 @@ class ImprovedDynamicMDD:
         self.device = self._setup_device(device)
         self.model_name = model_name
         
+
         logger.info("Initializing improved dynamic MDD system")
         self._load_models()
         self._init_phoneme_analysis()
@@ -226,20 +227,32 @@ class ImprovedDynamicMDD:
                 
                 logger.info(f"ASR transcription: '{transcription}'")
                 
-                # VALIDATE ASR OUTPUT if reference provided
+                # CRITICAL FIX: Check if ASR output is too similar to reference
+                # This indicates the system might be copying reference instead of analyzing audio
                 if reference_text:
-                    transcription = validate_asr_output(transcription, reference_text)
+                    similarity = self._calculate_text_similarity(
+                        transcription.lower().strip(), 
+                        reference_text.lower().strip()
+                    )
+                    
+                    if similarity > 0.95:  # 95% similarity threshold
+                        logger.warning(f"⚠️ ASR output suspiciously similar to reference ({similarity:.1%})")
+                        logger.warning("This might indicate the model is not properly analyzing audio")
+                        
+                        # DON'T use the ASR transcription - it's too perfect
+                        # Instead, rely on acoustic analysis
+                        return ['<unk>']  # Force fallback to acoustic method
                 
                 # REMOVE DUPLICATES
                 cleaned_transcription = self._remove_transcription_duplicates(transcription)
                 if cleaned_transcription != transcription:
                     logger.info(f"Removed duplicates: '{cleaned_transcription}'")
                 
-                # Convert to phonemes
+                # Convert to phonemes ONLY if transcription seems legitimate
                 if cleaned_transcription and not cleaned_transcription.isspace():
                     phonemes = self._text_to_phonemes_espeak(cleaned_transcription)
                     return phonemes
-                    
+                        
         except Exception as e:
             logger.warning(f"ASR phoneme extraction failed: {e}")
         
