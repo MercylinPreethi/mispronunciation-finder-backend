@@ -1,0 +1,2709 @@
+{
+  "easy": [
+    {
+      "id": "e_1",
+      "word": "Apple",
+      "meaning": "A fruit",
+      "example": "A red apple.",
+      "tip": "Short 'a' sound",
+      "phonetic": "/apple/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_2",
+      "word": "Ball",
+      "meaning": "A round toy",
+      "example": "Bounce the ball.",
+      "tip": "Short 'a' sound",
+      "phonetic": "/ball/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_3",
+      "word": "Cat",
+      "meaning": "A small animal",
+      "example": "A fluffy cat.",
+      "tip": "Short 'a' sound",
+      "phonetic": "/cat/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_4",
+      "word": "Dog",
+      "meaning": "A pet animal",
+      "example": "Walk the dog.",
+      "tip": "Short 'o' sound",
+      "phonetic": "/dog/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_5",
+      "word": "Egg",
+      "meaning": "Bird's product",
+      "example": "Boil an egg.",
+      "tip": "Short 'e' sound",
+      "phonetic": "/egg/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_6",
+      "word": "Fish",
+      "meaning": "Swimming animal",
+      "example": "Catch a fish.",
+      "tip": "Short 'i' sound",
+      "phonetic": "/fish/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_7",
+      "word": "Game",
+      "meaning": "An activity for fun",
+      "example": "Play a game.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/game/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_8",
+      "word": "Hat",
+      "meaning": "Head covering",
+      "example": "Wear a hat.",
+      "tip": "Short 'a' sound",
+      "phonetic": "/hat/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_9",
+      "word": "Ice",
+      "meaning": "Frozen water",
+      "example": "Cold ice.",
+      "tip": "Long 'i' sound",
+      "phonetic": "/ice/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_10",
+      "word": "Jump",
+      "meaning": "Leap into the air",
+      "example": "Jump high.",
+      "tip": "Short 'u' sound",
+      "phonetic": "/jump/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_11",
+      "word": "Kite",
+      "meaning": "Flying toy",
+      "example": "Fly a kite.",
+      "tip": "Long 'i' sound",
+      "phonetic": "/kite/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_12",
+      "word": "Leg",
+      "meaning": "Body part",
+      "example": "Strong leg.",
+      "tip": "Short 'e' sound",
+      "phonetic": "/leg/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_13",
+      "word": "Moon",
+      "meaning": "Night sky object",
+      "example": "Bright moon.",
+      "tip": "Long 'oo' sound",
+      "phonetic": "/moon/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_14",
+      "word": "Nest",
+      "meaning": "Bird's home",
+      "example": "A small nest.",
+      "tip": "Short 'e' sound",
+      "phonetic": "/nest/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_15",
+      "word": "Orange",
+      "meaning": "A citrus fruit",
+      "example": "Juicy orange.",
+      "tip": "OR-anje",
+      "phonetic": "/orange/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_16",
+      "word": "Pen",
+      "meaning": "Writing tool",
+      "example": "Blue pen.",
+      "tip": "Short 'e' sound",
+      "phonetic": "/pen/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_17",
+      "word": "Queen",
+      "meaning": "Female ruler",
+      "example": "The kind queen.",
+      "tip": "Long 'e' sound",
+      "phonetic": "/queen/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_18",
+      "word": "Rain",
+      "meaning": "Water from sky",
+      "example": "Heavy rain.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/rain/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_19",
+      "word": "Sun",
+      "meaning": "Daytime star",
+      "example": "Hot sun.",
+      "tip": "Short 'u' sound",
+      "phonetic": "/sun/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_20",
+      "word": "Tree",
+      "meaning": "Tall plant",
+      "example": "A big tree.",
+      "tip": "Long 'e' sound",
+      "phonetic": "/tree/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_21",
+      "word": "Umbrella",
+      "meaning": "Rain protection",
+      "example": "Use an umbrella.",
+      "tip": "um-BREL-a",
+      "phonetic": "/umbrella/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_22",
+      "word": "Van",
+      "meaning": "A vehicle",
+      "example": "A white van.",
+      "tip": "Short 'a' sound",
+      "phonetic": "/van/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_23",
+      "word": "Water",
+      "meaning": "Clear liquid",
+      "example": "Drink water.",
+      "tip": "WA-ter",
+      "phonetic": "/water/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_24",
+      "word": "Box",
+      "meaning": "A container",
+      "example": "A cardboard box.",
+      "tip": "Short 'o' sound",
+      "phonetic": "/box/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_25",
+      "word": "Yawn",
+      "meaning": "Sign of tiredness",
+      "example": "A big yawn.",
+      "tip": "Long 'aw' sound",
+      "phonetic": "/yawn/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_26",
+      "word": "Zip",
+      "meaning": "Fastener",
+      "example": "Zip your coat.",
+      "tip": "Short 'i' sound",
+      "phonetic": "/zip/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_27",
+      "word": "Book",
+      "meaning": "For reading",
+      "example": "Read a book.",
+      "tip": "Short 'oo' sound",
+      "phonetic": "/book/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_28",
+      "word": "Cake",
+      "meaning": "Sweet dessert",
+      "example": "Birthday cake.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/cake/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_29",
+      "word": "Door",
+      "meaning": "Entryway",
+      "example": "Open the door.",
+      "tip": "Long 'or' sound",
+      "phonetic": "/door/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_30",
+      "word": "Eye",
+      "meaning": "Body part for seeing",
+      "example": "Blue eye.",
+      "tip": "Long 'i' sound",
+      "phonetic": "/eye/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_31",
+      "word": "Frog",
+      "meaning": "Jumping amphibian",
+      "example": "A green frog.",
+      "tip": "Short 'o' sound",
+      "phonetic": "/frog/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_32",
+      "word": "Gift",
+      "meaning": "Present",
+      "example": "A nice gift.",
+      "tip": "Short 'i' sound",
+      "phonetic": "/gift/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_33",
+      "word": "Hand",
+      "meaning": "Body part",
+      "example": "Raise your hand.",
+      "tip": "Short 'a' sound",
+      "phonetic": "/hand/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_34",
+      "word": "Iron",
+      "meaning": "Metal",
+      "example": "Strong iron.",
+      "tip": "I-urn",
+      "phonetic": "/iron/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_35",
+      "word": "Jar",
+      "meaning": "A glass container",
+      "example": "A jar of jam.",
+      "tip": "Soft 'j' sound",
+      "phonetic": "/jar/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_36",
+      "word": "Key",
+      "meaning": "Unlocks things",
+      "example": "A metal key.",
+      "tip": "Long 'e' sound",
+      "phonetic": "/key/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_37",
+      "word": "Lamp",
+      "meaning": "Provides light",
+      "example": "A bright lamp.",
+      "tip": "Short 'a' sound",
+      "phonetic": "/lamp/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_38",
+      "word": "Milk",
+      "meaning": "White drink",
+      "example": "Cold milk.",
+      "tip": "Short 'i' sound",
+      "phonetic": "/milk/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_39",
+      "word": "Nose",
+      "meaning": "Body part for smelling",
+      "example": "Runny nose.",
+      "tip": "Long 'o' sound",
+      "phonetic": "/nose/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_40",
+      "word": "Owl",
+      "meaning": "Night bird",
+      "example": "A wise owl.",
+      "tip": "Long 'ow' sound",
+      "phonetic": "/owl/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_41",
+      "word": "Pig",
+      "meaning": "Farm animal",
+      "example": "A pink pig.",
+      "tip": "Short 'i' sound",
+      "phonetic": "/pig/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_42",
+      "word": "Quilt",
+      "meaning": "Warm bedcover",
+      "example": "A warm quilt.",
+      "tip": "Short 'i' sound",
+      "phonetic": "/quilt/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_43",
+      "word": "Ring",
+      "meaning": "Jewelry for finger",
+      "example": "A gold ring.",
+      "tip": "Short 'i' sound",
+      "phonetic": "/ring/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_44",
+      "word": "Sock",
+      "meaning": "Footwear",
+      "example": "A pair of socks.",
+      "tip": "Short 'o' sound",
+      "phonetic": "/sock/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_45",
+      "word": "Table",
+      "meaning": "Furniture",
+      "example": "Wooden table.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/table/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_46",
+      "word": "Uniform",
+      "meaning": "Standard clothing",
+      "example": "School uniform.",
+      "tip": "U-ni-form",
+      "phonetic": "/uniform/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_47",
+      "word": "Vase",
+      "meaning": "Holds flowers",
+      "example": "A glass vase.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/vase/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_48",
+      "word": "Window",
+      "meaning": "Glass in a wall",
+      "example": "Open the window.",
+      "tip": "WIN-dow",
+      "phonetic": "/window/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_49",
+      "word": "X-ray",
+      "meaning": "Medical image",
+      "example": "Bone x-ray.",
+      "tip": "EX-ray",
+      "phonetic": "/x-ray/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_50",
+      "word": "Yogurt",
+      "meaning": "Dairy food",
+      "example": "Strawberry yogurt.",
+      "tip": "YO-gurt",
+      "phonetic": "/yogurt/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_51",
+      "word": "Zoo",
+      "meaning": "Animal park",
+      "example": "Visit the zoo.",
+      "tip": "Long 'oo' sound",
+      "phonetic": "/zoo/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_52",
+      "word": "Beach",
+      "meaning": "Sandy shore",
+      "example": "Sandy beach.",
+      "tip": "Long 'e' sound",
+      "phonetic": "/beach/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_53",
+      "word": "Cloud",
+      "meaning": "In the sky",
+      "example": "White cloud.",
+      "tip": "Long 'ow' sound",
+      "phonetic": "/cloud/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_54",
+      "word": "Desk",
+      "meaning": "Work table",
+      "example": "School desk.",
+      "tip": "Short 'e' sound",
+      "phonetic": "/desk/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_55",
+      "word": "Earth",
+      "meaning": "Our planet",
+      "example": "Planet Earth.",
+      "tip": "Soft 'th' sound",
+      "phonetic": "/earth/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_56",
+      "word": "Flower",
+      "meaning": "Plant bloom",
+      "example": "Beautiful flower.",
+      "tip": "FLOW-er",
+      "phonetic": "/flower/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_57",
+      "word": "Grass",
+      "meaning": "Lawn plant",
+      "example": "Green grass.",
+      "tip": "Short 'a' sound",
+      "phonetic": "/grass/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_58",
+      "word": "House",
+      "meaning": "A building to live in",
+      "example": "A big house.",
+      "tip": "Long 'ow' sound",
+      "phonetic": "/house/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_59",
+      "word": "Island",
+      "meaning": "Land surrounded by water",
+      "example": "Tropical island.",
+      "tip": "I-land",
+      "phonetic": "/island/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_60",
+      "word": "Juice",
+      "meaning": "Fruit drink",
+      "example": "Orange juice.",
+      "tip": "Soft 'j' sound",
+      "phonetic": "/juice/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_61",
+      "word": "Kitten",
+      "meaning": "Young cat",
+      "example": "A cute kitten.",
+      "tip": "KIT-ten",
+      "phonetic": "/kitten/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_62",
+      "word": "Leaf",
+      "meaning": "Tree part",
+      "example": "Green leaf.",
+      "tip": "Long 'e' sound",
+      "phonetic": "/leaf/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_63",
+      "word": "Mountain",
+      "meaning": "Very high hill",
+      "example": "Tall mountain.",
+      "tip": "MOUN-tin",
+      "phonetic": "/mountain/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_64",
+      "word": "Night",
+      "meaning": "Dark time",
+      "example": "Quiet night.",
+      "tip": "Long 'i' sound",
+      "phonetic": "/night/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_65",
+      "word": "Ocean",
+      "meaning": "Large sea",
+      "example": "Vast ocean.",
+      "tip": "O-cean",
+      "phonetic": "/ocean/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_66",
+      "word": "Pencil",
+      "meaning": "Writing tool",
+      "example": "Sharp pencil.",
+      "tip": "PEN-cil",
+      "phonetic": "/pencil/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_67",
+      "word": "Question",
+      "meaning": "A sentence asking something",
+      "example": "Good question.",
+      "tip": "QUES-chun",
+      "phonetic": "/question/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_68",
+      "word": "River",
+      "meaning": "Flowing water",
+      "example": "Wide river.",
+      "tip": "RIV-er",
+      "phonetic": "/river/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_69",
+      "word": "Ship",
+      "meaning": "Large boat",
+      "example": "Sailing ship.",
+      "tip": "Short 'i' sound",
+      "phonetic": "/ship/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_70",
+      "word": "Train",
+      "meaning": "Rail vehicle",
+      "example": "Fast train.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/train/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_71",
+      "word": "Uncle",
+      "meaning": "Parent's brother",
+      "example": "My funny uncle.",
+      "tip": "UN-kl",
+      "phonetic": "/uncle/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_72",
+      "word": "Voice",
+      "meaning": "Sound from mouth",
+      "example": "Loud voice.",
+      "tip": "Long 'oi' sound",
+      "phonetic": "/voice/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_73",
+      "word": "Wave",
+      "meaning": "Sea movement",
+      "example": "Big wave.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/wave/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_74",
+      "word": "Xylophone",
+      "meaning": "Musical instrument",
+      "example": "Play the xylophone.",
+      "tip": "ZY-lo-fone",
+      "phonetic": "/xylophone/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_75",
+      "word": "Yacht",
+      "meaning": "A sailing boat",
+      "example": "Luxury yacht.",
+      "tip": "Sounds like 'yot'",
+      "phonetic": "/yacht/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_76",
+      "word": "Zero",
+      "meaning": "The number 0",
+      "example": "Zero degrees.",
+      "tip": "ZEER-oh",
+      "phonetic": "/zero/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_77",
+      "word": "Anchor",
+      "meaning": "Ship's weight",
+      "example": "Drop the anchor.",
+      "tip": "ANK-er",
+      "phonetic": "/anchor/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_78",
+      "word": "Bridge",
+      "meaning": "Structure over a river",
+      "example": "Cross the bridge.",
+      "tip": "Short 'i' sound",
+      "phonetic": "/bridge/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_79",
+      "word": "Clock",
+      "meaning": "Time device",
+      "example": "Wall clock.",
+      "tip": "Short 'o' sound",
+      "phonetic": "/clock/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_80",
+      "word": "Drum",
+      "meaning": "Musical instrument",
+      "example": "Beat the drum.",
+      "tip": "Short 'u' sound",
+      "phonetic": "/drum/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_81",
+      "word": "Engine",
+      "meaning": "Machine that provides power",
+      "example": "Car engine.",
+      "tip": "EN-gin",
+      "phonetic": "/engine/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_82",
+      "word": "Feather",
+      "meaning": "Bird's covering",
+      "example": "Light feather.",
+      "tip": "FETH-er",
+      "phonetic": "/feather/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_83",
+      "word": "Glove",
+      "meaning": "Hand covering",
+      "example": "Warm glove.",
+      "tip": "Short 'u' sound",
+      "phonetic": "/glove/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_84",
+      "word": "Honey",
+      "meaning": "Sweet substance",
+      "example": "Sweet honey.",
+      "tip": "HUN-ee",
+      "phonetic": "/honey/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_85",
+      "word": "Insect",
+      "meaning": "Small creature",
+      "example": "Tiny insect.",
+      "tip": "IN-sekt",
+      "phonetic": "/insect/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_86",
+      "word": "Jacket",
+      "meaning": "Piece of clothing",
+      "example": "Warm jacket.",
+      "tip": "JAK-it",
+      "phonetic": "/jacket/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_87",
+      "word": "Kernel",
+      "meaning": "Seed",
+      "example": "Popcorn kernel.",
+      "tip": "KER-nel",
+      "phonetic": "/kernel/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_88",
+      "word": "Ladder",
+      "meaning": "Climbing tool",
+      "example": "Tall ladder.",
+      "tip": "LAD-der",
+      "phonetic": "/ladder/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_89",
+      "word": "Magnet",
+      "meaning": "Attracts metal",
+      "example": "Strong magnet.",
+      "tip": "MAG-net",
+      "phonetic": "/magnet/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_90",
+      "word": "Necklace",
+      "meaning": "Neck jewelry",
+      "example": "Pearl necklace.",
+      "tip": "NECK-lis",
+      "phonetic": "/necklace/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_91",
+      "word": "Oven",
+      "meaning": "For baking",
+      "example": "Hot oven.",
+      "tip": "UV-en",
+      "phonetic": "/oven/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_92",
+      "word": "Pillow",
+      "meaning": "For your head",
+      "example": "Soft pillow.",
+      "tip": "PIL-low",
+      "phonetic": "/pillow/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_93",
+      "word": "Quartz",
+      "meaning": "A mineral",
+      "example": "Clear quartz.",
+      "tip": "Sounds like 'courts'",
+      "phonetic": "/quartz/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_94",
+      "word": "Rocket",
+      "meaning": "Space vehicle",
+      "example": "Launch a rocket.",
+      "tip": "ROCK-et",
+      "phonetic": "/rocket/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_95",
+      "word": "Stomach",
+      "meaning": "Body part",
+      "example": "Full stomach.",
+      "tip": "STUM-uk",
+      "phonetic": "/stomach/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_96",
+      "word": "Telescope",
+      "meaning": "See far away",
+      "example": "Look through a telescope.",
+      "tip": "TEL-e-scope",
+      "phonetic": "/telescope/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_97",
+      "word": "Violin",
+      "meaning": "Musical instrument",
+      "example": "Play the violin.",
+      "tip": "vy-o-LIN",
+      "phonetic": "/violin/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_98",
+      "word": "Whistle",
+      "meaning": "Makes a high sound",
+      "example": "Loud whistle.",
+      "tip": "WIS-ul",
+      "phonetic": "/whistle/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_99",
+      "word": "Yarn",
+      "meaning": "Thread for knitting",
+      "example": "Ball of yarn.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/yarn/",
+      "difficulty": "easy"
+    },
+    {
+      "id": "e_100",
+      "word": "Zipper",
+      "meaning": "Clothing fastener",
+      "example": "Broken zipper.",
+      "tip": "ZIP-er",
+      "phonetic": "/zipper/",
+      "difficulty": "easy"
+    }
+  ],
+  "intermediate": [
+    {
+      "id": "i_1",
+      "word": "Abundant",
+      "meaning": "Plentiful",
+      "example": "Abundant resources.",
+      "tip": "a-BUN-dant",
+      "phonetic": "/abundant/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_2",
+      "word": "Benevolent",
+      "meaning": "Kind, generous",
+      "example": "A benevolent leader.",
+      "tip": "be-NEV-o-lent",
+      "phonetic": "/benevolent/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_3",
+      "word": "Cumbersome",
+      "meaning": "Clumsy, bulky",
+      "example": "Cumbersome package.",
+      "tip": "CUM-ber-some",
+      "phonetic": "/cumbersome/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_4",
+      "word": "Diligent",
+      "meaning": "Hard-working",
+      "example": "A diligent student.",
+      "tip": "DIL-i-jent",
+      "phonetic": "/diligent/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_5",
+      "word": "Elaborate",
+      "meaning": "Detailed, complicated",
+      "example": "An elaborate plan.",
+      "tip": "e-LAB-or-ate",
+      "phonetic": "/elaborate/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_6",
+      "word": "Facilitate",
+      "meaning": "Make easier",
+      "example": "Facilitate learning.",
+      "tip": "fa-SIL-i-tate",
+      "phonetic": "/facilitate/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_7",
+      "word": "Gregarious",
+      "meaning": "Sociable",
+      "example": "Gregarious person.",
+      "tip": "gre-GAIR-ee-us",
+      "phonetic": "/gregarious/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_8",
+      "word": "Hypothesis",
+      "meaning": "A proposed explanation",
+      "example": "Scientific hypothesis.",
+      "tip": "hy-POTH-e-sis",
+      "phonetic": "/hypothesis/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_9",
+      "word": "Integrity",
+      "meaning": "Honesty, moral principles",
+      "example": "A person of integrity.",
+      "tip": "in-TEG-ri-ty",
+      "phonetic": "/integrity/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_10",
+      "word": "Juxtaposition",
+      "meaning": "Placing side by side",
+      "example": "A strange juxtaposition.",
+      "tip": "JUX-ta-po-si-tion",
+      "phonetic": "/juxtaposition/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_11",
+      "word": "Kinetic",
+      "meaning": "Relating to motion",
+      "example": "Kinetic energy.",
+      "tip": "ki-NET-ic",
+      "phonetic": "/kinetic/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_12",
+      "word": "Labyrinth",
+      "meaning": "A maze",
+      "example": "A complex labyrinth.",
+      "tip": "LAB-y-rinth",
+      "phonetic": "/labyrinth/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_13",
+      "word": "Melancholy",
+      "meaning": "A feeling of sadness",
+      "example": "A sense of melancholy.",
+      "tip": "MEL-an-col-ee",
+      "phonetic": "/melancholy/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_14",
+      "word": "Notorious",
+      "meaning": "Famous for something bad",
+      "example": "A notorious criminal.",
+      "tip": "no-TOR-ee-us",
+      "phonetic": "/notorious/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_15",
+      "word": "Oblivious",
+      "meaning": "Unaware",
+      "example": "Oblivious to the danger.",
+      "tip": "o-BLIV-ee-us",
+      "phonetic": "/oblivious/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_16",
+      "word": "Paradox",
+      "meaning": "A contradiction",
+      "example": "A logical paradox.",
+      "tip": "PAR-a-dox",
+      "phonetic": "/paradox/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_17",
+      "word": "Quandary",
+      "meaning": "A state of uncertainty",
+      "example": "In a moral quandary.",
+      "tip": "KWON-dree",
+      "phonetic": "/quandary/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_18",
+      "word": "Resilient",
+      "meaning": "Able to recover quickly",
+      "example": "Resilient material.",
+      "tip": "re-ZIL-yent",
+      "phonetic": "/resilient/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_19",
+      "word": "Symbiosis",
+      "meaning": "Mutually beneficial relationship",
+      "example": "A symbiotic relationship.",
+      "tip": "sim-by-O-sis",
+      "phonetic": "/symbiosis/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_20",
+      "word": "Trepidation",
+      "meaning": "A feeling of fear",
+      "example": "Full of trepidation.",
+      "tip": "trep-i-DAY-shun",
+      "phonetic": "/trepidation/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_21",
+      "word": "Ubiquitous",
+      "meaning": "Found everywhere",
+      "example": "Ubiquitous technology.",
+      "tip": "yoo-BIK-wi-tus",
+      "phonetic": "/ubiquitous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_22",
+      "word": "Versatile",
+      "meaning": "Able to adapt to many functions",
+      "example": "A versatile tool.",
+      "tip": "VER-sa-tile",
+      "phonetic": "/versatile/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_23",
+      "word": "Wistful",
+      "meaning": "Full of yearning",
+      "example": "A wistful smile.",
+      "tip": "WIST-ful",
+      "phonetic": "/wistful/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_24",
+      "word": "Xenophobia",
+      "meaning": "Fear of foreigners",
+      "example": "Combating xenophobia.",
+      "tip": "ZEN-o-FO-bee-a",
+      "phonetic": "/xenophobia/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_25",
+      "word": "Yearning",
+      "meaning": "A deep longing",
+      "example": "A yearning for home.",
+      "tip": "YURN-ing",
+      "phonetic": "/yearning/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_26",
+      "word": "Zealous",
+      "meaning": "Full of enthusiasm",
+      "example": "A zealous supporter.",
+      "tip": "ZEL-us",
+      "phonetic": "/zealous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_27",
+      "word": "Ambiguous",
+      "meaning": "Unclear, having multiple meanings",
+      "example": "An ambiguous answer.",
+      "tip": "am-BIG-yoo-us",
+      "phonetic": "/ambiguous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_28",
+      "word": "Belligerent",
+      "meaning": "Hostile and aggressive",
+      "example": "A belligerent attitude.",
+      "tip": "be-LIJ-er-ent",
+      "phonetic": "/belligerent/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_29",
+      "word": "Conundrum",
+      "meaning": "A confusing problem",
+      "example": "A difficult conundrum.",
+      "tip": "ko-NUN-drum",
+      "phonetic": "/conundrum/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_30",
+      "word": "Deleterious",
+      "meaning": "Harmful",
+      "example": "Deleterious effects.",
+      "tip": "del-i-TEER-ee-us",
+      "phonetic": "/deleterious/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_31",
+      "word": "Ephemeral",
+      "meaning": "Lasting a short time",
+      "example": "Ephemeral beauty.",
+      "tip": "e-FEM-er-al",
+      "phonetic": "/ephemeral/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_32",
+      "word": "Fundamental",
+      "meaning": "Basic, primary",
+      "example": "Fundamental principles.",
+      "tip": "fun-da-MEN-tal",
+      "phonetic": "/fundamental/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_33",
+      "word": "Gratuitous",
+      "meaning": "Unnecessary, uncalled for",
+      "example": "Gratuitous violence.",
+      "tip": "gra-TOO-i-tus",
+      "phonetic": "/gratuitous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_34",
+      "word": "Hindrance",
+      "meaning": "Something that obstructs",
+      "example": "A major hindrance.",
+      "tip": "HIN-drance",
+      "phonetic": "/hindrance/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_35",
+      "word": "Impeccable",
+      "meaning": "Flawless",
+      "example": "Impeccable manners.",
+      "tip": "im-PEK-a-bul",
+      "phonetic": "/impeccable/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_36",
+      "word": "Jovial",
+      "meaning": "Cheerful and friendly",
+      "example": "A jovial mood.",
+      "tip": "JO-vee-al",
+      "phonetic": "/jovial/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_37",
+      "word": "Kaleidoscope",
+      "meaning": "A constantly changing pattern",
+      "example": "A kaleidoscope of colors.",
+      "tip": "ka-LY-do-scope",
+      "phonetic": "/kaleidoscope/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_38",
+      "word": "Lethargic",
+      "meaning": "Sluggish, lacking energy",
+      "example": "Feeling lethargic.",
+      "tip": "le-THAR-jik",
+      "phonetic": "/lethargic/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_39",
+      "word": "Meticulous",
+      "meaning": "Very careful, precise",
+      "example": "Meticulous work.",
+      "tip": "me-TIK-yoo-lus",
+      "phonetic": "/meticulous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_40",
+      "word": "Nostalgia",
+      "meaning": "Longing for the past",
+      "example": "A sense of nostalgia.",
+      "tip": "no-STAL-ja",
+      "phonetic": "/nostalgia/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_41",
+      "word": "Ominous",
+      "meaning": "Threatening",
+      "example": "An ominous sign.",
+      "tip": "OM-in-us",
+      "phonetic": "/ominous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_42",
+      "word": "Pragmatic",
+      "meaning": "Dealing with things sensibly",
+      "example": "A pragmatic approach.",
+      "tip": "prag-MAT-ik",
+      "phonetic": "/pragmatic/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_43",
+      "word": "Querulous",
+      "meaning": "Complaining",
+      "example": "A querulous voice.",
+      "tip": "KWER-uh-lus",
+      "phonetic": "/querulous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_44",
+      "word": "Reverberate",
+      "meaning": "Echo",
+      "example": "The sound will reverberate.",
+      "tip": "re-VER-ber-ate",
+      "phonetic": "/reverberate/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_45",
+      "word": "Serendipity",
+      "meaning": "A fortunate discovery by chance",
+      "example": "A moment of serendipity.",
+      "tip": "ser-en-DIP-i-tee",
+      "phonetic": "/serendipity/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_46",
+      "word": "Tranquil",
+      "meaning": "Peaceful",
+      "example": "A tranquil scene.",
+      "tip": "TRAN-kwil",
+      "phonetic": "/tranquil/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_47",
+      "word": "Unanimous",
+      "meaning": "Fully in agreement",
+      "example": "A unanimous decision.",
+      "tip": "yoo-NAN-i-mus",
+      "phonetic": "/unanimous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_48",
+      "word": "Vulnerable",
+      "meaning": "Open to attack",
+      "example": "A vulnerable position.",
+      "tip": "VUL-ner-a-bul",
+      "phonetic": "/vulnerable/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_49",
+      "word": "Wholesome",
+      "meaning": "Conducive to moral well-being",
+      "example": "Wholesome food.",
+      "tip": "HOLE-sum",
+      "phonetic": "/wholesome/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_50",
+      "word": "Yield",
+      "meaning": "Produce, give way",
+      "example": "Yield to oncoming traffic.",
+      "tip": "Long 'e' sound",
+      "phonetic": "/yield/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_51",
+      "word": "Zephyr",
+      "meaning": "A gentle breeze",
+      "example": "A soft zephyr.",
+      "tip": "ZEF-er",
+      "phonetic": "/zephyr/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_52",
+      "word": "Alleviate",
+      "meaning": "Make less severe",
+      "example": "Alleviate pain.",
+      "tip": "a-LEE-vee-ate",
+      "phonetic": "/alleviate/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_53",
+      "word": "Benevolence",
+      "meaning": "The quality of being kind",
+      "example": "An act of benevolence.",
+      "tip": "be-NEV-o-lence",
+      "phonetic": "/benevolence/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_54",
+      "word": "Cacophony",
+      "meaning": "A harsh mixture of sounds",
+      "example": "A cacophony of noise.",
+      "tip": "ka-KOF-o-nee",
+      "phonetic": "/cacophony/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_55",
+      "word": "Debilitate",
+      "meaning": "Make weak",
+      "example": "A debilitating illness.",
+      "tip": "de-BIL-i-tate",
+      "phonetic": "/debilitate/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_56",
+      "word": "Eclectic",
+      "meaning": "Deriving from varied sources",
+      "example": "An eclectic taste.",
+      "tip": "e-KLEK-tik",
+      "phonetic": "/eclectic/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_57",
+      "word": "Flourish",
+      "meaning": "Grow, prosper",
+      "example": "Business began to flourish.",
+      "tip": "FLUR-ish",
+      "phonetic": "/flourish/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_58",
+      "word": "Grandiose",
+      "meaning": "Extravagant, impressive",
+      "example": "Grandiose plans.",
+      "tip": "GRAN-dee-ose",
+      "phonetic": "/grandiose/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_59",
+      "word": "Harangue",
+      "meaning": "A lengthy speech",
+      "example": "A political harangue.",
+      "tip": "ha-RANG",
+      "phonetic": "/harangue/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_60",
+      "word": "Idiosyncrasy",
+      "meaning": "A peculiar trait",
+      "example": "A personal idiosyncrasy.",
+      "tip": "id-ee-o-SIN-kra-see",
+      "phonetic": "/idiosyncrasy/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_61",
+      "word": "Jubilant",
+      "meaning": "Full of happiness",
+      "example": "A jubilant crowd.",
+      "tip": "JOO-bi-lant",
+      "phonetic": "/jubilant/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_62",
+      "word": "Knack",
+      "meaning": "A special skill",
+      "example": "A knack for languages.",
+      "tip": "Short 'a' sound",
+      "phonetic": "/knack/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_63",
+      "word": "Lucid",
+      "meaning": "Clear, understandable",
+      "example": "A lucid explanation.",
+      "tip": "LOO-sid",
+      "phonetic": "/lucid/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_64",
+      "word": "Magnanimous",
+      "meaning": "Generous, forgiving",
+      "example": "A magnanimous gesture.",
+      "tip": "mag-NAN-i-mus",
+      "phonetic": "/magnanimous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_65",
+      "word": "Nonchalant",
+      "meaning": "Casually calm",
+      "example": "A nonchalant attitude.",
+      "tip": "non-sha-LANT",
+      "phonetic": "/nonchalant/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_66",
+      "word": "Opaque",
+      "meaning": "Not transparent",
+      "example": "Opaque glass.",
+      "tip": "o-PAKE",
+      "phonetic": "/opaque/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_67",
+      "word": "Pernicious",
+      "meaning": "Having a harmful effect",
+      "example": "Pernicious influence.",
+      "tip": "per-NISH-us",
+      "phonetic": "/pernicious/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_68",
+      "word": "Quintessential",
+      "meaning": "Representing the most perfect example",
+      "example": "The quintessential hero.",
+      "tip": "kwin-te-SEN-shul",
+      "phonetic": "/quintessential/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_69",
+      "word": "Resolute",
+      "meaning": "Admirably determined",
+      "example": "A resolute leader.",
+      "tip": "REZ-o-loot",
+      "phonetic": "/resolute/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_70",
+      "word": "Spontaneous",
+      "meaning": "Performed without planning",
+      "example": "Spontaneous applause.",
+      "tip": "spon-TAY-nee-us",
+      "phonetic": "/spontaneous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_71",
+      "word": "Taciturn",
+      "meaning": "Reserved, uncommunicative",
+      "example": "A taciturn person.",
+      "tip": "TAS-i-turn",
+      "phonetic": "/taciturn/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_72",
+      "word": "Uncanny",
+      "meaning": "Strange, mysterious",
+      "example": "An uncanny resemblance.",
+      "tip": "un-KAN-ee",
+      "phonetic": "/uncanny/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_73",
+      "word": "Vindicate",
+      "meaning": "Clear of blame",
+      "example": "Vindicate his name.",
+      "tip": "VIN-di-kate",
+      "phonetic": "/vindicate/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_74",
+      "word": "Wary",
+      "meaning": "Cautious",
+      "example": "Be wary of strangers.",
+      "tip": "WAIR-ee",
+      "phonetic": "/wary/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_75",
+      "word": "Xenial",
+      "meaning": "Friendly to guests",
+      "example": "A xenial host.",
+      "tip": "ZEE-nee-al",
+      "phonetic": "/xenial/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_76",
+      "word": "Yoke",
+      "meaning": "To join together",
+      "example": "Yoke the oxen.",
+      "tip": "Long 'o' sound",
+      "phonetic": "/yoke/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_77",
+      "word": "Zest",
+      "meaning": "Great enthusiasm",
+      "example": "She had a zest for life.",
+      "tip": "Short 'e' sound",
+      "phonetic": "/zest/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_78",
+      "word": "Acclaim",
+      "meaning": "Praise enthusiastically",
+      "example": "Critical acclaim.",
+      "tip": "a-KLAYM",
+      "phonetic": "/acclaim/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_79",
+      "word": "Bolster",
+      "meaning": "Support, strengthen",
+      "example": "Bolster confidence.",
+      "tip": "BOL-ster",
+      "phonetic": "/bolster/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_80",
+      "word": "Candor",
+      "meaning": "Open honesty",
+      "example": "Speak with candor.",
+      "tip": "KAN-der",
+      "phonetic": "/candor/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_81",
+      "word": "Daunt",
+      "meaning": "Make fearful",
+      "example": "A daunting task.",
+      "tip": "Short 'aw' sound",
+      "phonetic": "/daunt/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_82",
+      "word": "Eclipse",
+      "meaning": "To overshadow",
+      "example": "A solar eclipse.",
+      "tip": "ee-KLIPS",
+      "phonetic": "/eclipse/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_83",
+      "word": "Fickle",
+      "meaning": "Changing frequently",
+      "example": "Fickle weather.",
+      "tip": "FIK-ul",
+      "phonetic": "/fickle/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_84",
+      "word": "Garnish",
+      "meaning": "Decorate food",
+      "example": "Garnish the dish.",
+      "tip": "GAR-nish",
+      "phonetic": "/garnish/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_85",
+      "word": "Haven",
+      "meaning": "A safe place",
+      "example": "A peaceful haven.",
+      "tip": "HAY-ven",
+      "phonetic": "/haven/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_86",
+      "word": "Innate",
+      "meaning": "Inborn, natural",
+      "example": "An innate ability.",
+      "tip": "in-ATE",
+      "phonetic": "/innate/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_87",
+      "word": "Jargon",
+      "meaning": "Specialized language",
+      "example": "Technical jargon.",
+      "tip": "JAR-gon",
+      "phonetic": "/jargon/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_88",
+      "word": "Keystone",
+      "meaning": "A central part",
+      "example": "The keystone of the argument.",
+      "tip": "KEY-stone",
+      "phonetic": "/keystone/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_89",
+      "word": "Languish",
+      "meaning": "Grow weak",
+      "example": "Languish in prison.",
+      "tip": "LANG-gwish",
+      "phonetic": "/languish/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_90",
+      "word": "Mitigate",
+      "meaning": "Make less severe",
+      "example": "Mitigate the damage.",
+      "tip": "MIT-i-gate",
+      "phonetic": "/mitigate/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_91",
+      "word": "Nuance",
+      "meaning": "A subtle difference",
+      "example": "A nuance of meaning.",
+      "tip": "NOO-ahns",
+      "phonetic": "/nuance/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_92",
+      "word": "Ostensible",
+      "meaning": "Stated, but not necessarily true",
+      "example": "The ostensible reason.",
+      "tip": "o-STEN-si-bul",
+      "phonetic": "/ostensible/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_93",
+      "word": "Provisional",
+      "meaning": "Temporary",
+      "example": "A provisional government.",
+      "tip": "pro-VIZH-uh-nul",
+      "phonetic": "/provisional/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_94",
+      "word": "Quixotic",
+      "meaning": "Idealistic but impractical",
+      "example": "A quixotic quest.",
+      "tip": "kwik-SOT-ik",
+      "phonetic": "/quixotic/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_95",
+      "word": "Rhetoric",
+      "meaning": "The art of persuasion",
+      "example": "Political rhetoric.",
+      "tip": "RET-er-ik",
+      "phonetic": "/rhetoric/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_96",
+      "word": "Sage",
+      "meaning": "A wise person",
+      "example": "The old sage.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/sage/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_97",
+      "word": "Tenuous",
+      "meaning": "Very weak",
+      "example": "A tenuous connection.",
+      "tip": "TEN-yoo-us",
+      "phonetic": "/tenuous/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_98",
+      "word": "Unprecedented",
+      "meaning": "Never done before",
+      "example": "Unprecedented success.",
+      "tip": "un-PRES-i-den-ted",
+      "phonetic": "/unprecedented/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_99",
+      "word": "Validate",
+      "meaning": "Check or prove the validity",
+      "example": "Validate a theory.",
+      "tip": "VAL-i-date",
+      "phonetic": "/validate/",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "i_100",
+      "word": "Wane",
+      "meaning": "Decrease in power",
+      "example": "The moon will wane.",
+      "tip": "Long 'a' sound",
+      "phonetic": "/wane/",
+      "difficulty": "intermediate"
+    }
+  ],
+
+  "hard": [
+    {
+      "id": "h_1",
+      "word": "Abnegation",
+      "meaning": "The act of renouncing something",
+      "example": "A life of abnegation.",
+      "tip": "ab-ni-GAY-shun",
+      "phonetic": "/abnegation/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_2",
+      "word": "Bombastic",
+      "meaning": "High-sounding but with little meaning",
+      "example": "A bombastic speech.",
+      "tip": "bom-BAS-tik",
+      "phonetic": "/bombastic/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_3",
+      "word": "Cacophony",
+      "meaning": "A harsh, discordant mixture of sounds",
+      "example": "A cacophony of car horns.",
+      "tip": "ka-KOF-uh-nee",
+      "phonetic": "/cacophony/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_4",
+      "word": "Dichotomy",
+      "meaning": "A division into two opposed parts",
+      "example": "A false dichotomy.",
+      "tip": "dy-KOT-uh-mee",
+      "phonetic": "/dichotomy/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_5",
+      "word": "Egregious",
+      "meaning": "Outstandingly bad",
+      "example": "An egregious error.",
+      "tip": "i-GREE-jus",
+      "phonetic": "/egregious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_6",
+      "word": "Fastidious",
+      "meaning": "Very attentive to detail",
+      "example": "Fastidious about cleanliness.",
+      "tip": "fa-STID-ee-us",
+      "phonetic": "/fastidious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_7",
+      "word": "Garrulous",
+      "meaning": "Excessively talkative",
+      "example": "A garrulous old man.",
+      "tip": "GAR-uh-lus",
+      "phonetic": "/garrulous/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_8",
+      "word": "Hubris",
+      "meaning": "Excessive pride",
+      "example": "The hubris of the king.",
+      "tip": "HYOO-bris",
+      "phonetic": "/hubris/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_9",
+      "word": "Idyllic",
+      "meaning": "Extremely happy and peaceful",
+      "example": "An idyllic setting.",
+      "tip": "eye-DIL-ik",
+      "phonetic": "/idyllic/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_10",
+      "word": "Juxtaposition",
+      "meaning": "The fact of two things being placed together",
+      "example": "A strange juxtaposition of ideas.",
+      "tip": "juhk-stuh-puh-ZI-shuhn",
+      "phonetic": "/juxtaposition/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_11",
+      "word": "Kowtow",
+      "meaning": "Act in an excessively subservient manner",
+      "example": "Refuse to kowtow to authority.",
+      "tip": "KOW-tow",
+      "phonetic": "/kowtow/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_12",
+      "word": "Laconic",
+      "meaning": "Using very few words",
+      "example": "A laconic reply.",
+      "tip": "la-KON-ik",
+      "phonetic": "/laconic/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_13",
+      "word": "Mendacious",
+      "meaning": "Not telling the truth",
+      "example": "A mendacious statement.",
+      "tip": "men-DAY-shus",
+      "phonetic": "/mendacious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_14",
+      "word": "Nefarious",
+      "meaning": "Wicked or criminal",
+      "example": "Nefarious activities.",
+      "tip": "ni-FAIR-ee-us",
+      "phonetic": "/nefarious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_15",
+      "word": "Obfuscate",
+      "meaning": "Make obscure or unclear",
+      "example": "Obfuscate the truth.",
+      "tip": "OB-fuh-skate",
+      "phonetic": "/obfuscate/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_16",
+      "word": "Paragon",
+      "meaning": "A model of excellence",
+      "example": "A paragon of virtue.",
+      "tip": "PAR-uh-gon",
+      "phonetic": "/paragon/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_17",
+      "word": "Quagmire",
+      "meaning": "A soft boggy area; a complex situation",
+      "example": "A political quagmire.",
+      "tip": "KWAG-mire",
+      "phonetic": "/quagmire/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_18",
+      "word": "Recalcitrant",
+      "meaning": "Resisting authority",
+      "example": "A recalcitrant child.",
+      "tip": "ri-KAL-si-trant",
+      "phonetic": "/recalcitrant/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_19",
+      "word": "Sycophant",
+      "meaning": "A person who acts obsequiously",
+      "example": "A sycophant to the boss.",
+      "tip": "SIK-uh-fant",
+      "phonetic": "/sycophant/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_20",
+      "word": "Tacit",
+      "meaning": "Understood without being stated",
+      "example": "Tacit approval.",
+      "tip": "TAS-it",
+      "phonetic": "/tacit/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_21",
+      "word": "Ubiquitous",
+      "meaning": "Present everywhere",
+      "example": "Ubiquitous surveillance.",
+      "tip": "yoo-BIK-wi-tus",
+      "phonetic": "/ubiquitous/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_22",
+      "word": "Vacillate",
+      "meaning": "Alternate between opinions",
+      "example": "Vacillate between choices.",
+      "tip": "VAS-uh-late",
+      "phonetic": "/vacillate/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_23",
+      "word": "Wrought",
+      "meaning": "Shaped by hammering",
+      "example": "Wrought iron.",
+      "tip": "Sounds like 'rot'",
+      "phonetic": "/rôt/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_24",
+      "word": "Xenophobia",
+      "meaning": "Dislike of foreigners",
+      "example": "Rampant xenophobia.",
+      "tip": "zen-uh-FOH-bee-uh",
+      "phonetic": "/xenophobia/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_25",
+      "word": "Yoke",
+      "meaning": "A wooden crosspiece",
+      "example": "The yoke of oppression.",
+      "tip": "Long 'o' sound",
+      "phonetic": "/yōk/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_26",
+      "word": "Zeitgeist",
+      "meaning": "The spirit of the time",
+      "example": "Capture the zeitgeist.",
+      "tip": "TSITE-guy-st",
+      "phonetic": "/zeitgeist/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_27",
+      "word": "Acumen",
+      "meaning": "The ability to make good judgments",
+      "example": "Business acumen.",
+      "tip": "AK-yoo-men",
+      "phonetic": "/acumen/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_28",
+      "word": "Bucolic",
+      "meaning": "Relating to the pleasant countryside",
+      "example": "A bucolic scene.",
+      "tip": "byoo-KOL-ik",
+      "phonetic": "/bucolic/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_29",
+      "word": "Capitulate",
+      "meaning": "Cease to resist",
+      "example": "Forced to capitulate.",
+      "tip": "kuh-PICH-uh-late",
+      "phonetic": "/capitulate/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_30",
+      "word": "Disparate",
+      "meaning": "Essentially different",
+      "example": "Disparate ideas.",
+      "tip": "DIS-puh-rit",
+      "phonetic": "/disparate/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_31",
+      "word": "Ebullient",
+      "meaning": "Cheerful and full of energy",
+      "example": "An ebullient personality.",
+      "tip": "i-BOOL-yent",
+      "phonetic": "/ebullient/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_32",
+      "word": "Facetious",
+      "meaning": "Treating serious issues with humor",
+      "example": "A facetious remark.",
+      "tip": "fuh-SEE-shus",
+      "phonetic": "/facetious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_33",
+      "word": "Gambol",
+      "meaning": "Run or jump about playfully",
+      "example": "Lambs gambol in the field.",
+      "tip": "GAM-bul",
+      "phonetic": "/gambol/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_34",
+      "word": "Harangue",
+      "meaning": "A lengthy and aggressive speech",
+      "example": "A political harangue.",
+      "tip": "huh-RANG",
+      "phonetic": "/harangue/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_35",
+      "word": "Iconoclast",
+      "meaning": "A person who attacks cherished beliefs",
+      "example": "A true iconoclast.",
+      "tip": "eye-KON-uh-klast",
+      "phonetic": "/iconoclast/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_36",
+      "word": "Jettison",
+      "meaning": "Throw or drop from a ship",
+      "example": "Jettison cargo.",
+      "tip": "JET-uh-sun",
+      "phonetic": "/jettison/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_37",
+      "word": "Knell",
+      "meaning": "The sound of a bell, especially for a death",
+      "example": "The knell of doom.",
+      "tip": "Short 'e' sound",
+      "phonetic": "/nel/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_38",
+      "word": "Largess",
+      "meaning": "Generosity in bestowing money",
+      "example": "A benefactor's largess.",
+      "tip": "lar-ZHES",
+      "phonetic": "/largess/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_39",
+      "word": "Munificent",
+      "meaning": "Larger or more generous than is usual",
+      "example": "A munificent gift.",
+      "tip": "myoo-NIF-uh-sent",
+      "phonetic": "/munificent/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_40",
+      "word": "Nomenclature",
+      "meaning": "The devising or choosing of names",
+      "example": "Scientific nomenclature.",
+      "tip": "NOH-men-klay-cher",
+      "phonetic": "/nomenclature/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_41",
+      "word": "Ostentatious",
+      "meaning": "Characterized by vulgar display",
+      "example": "Ostentatious wealth.",
+      "tip": "os-ten-TAY-shus",
+      "phonetic": "/ostentatious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_42",
+      "word": "Pernicious",
+      "meaning": "Having a harmful effect",
+      "example": "A pernicious influence.",
+      "tip": "per-NISH-us",
+      "phonetic": "/pernicious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_43",
+      "word": "Querulous",
+      "meaning": "Complaining in a petulant manner",
+      "example": "A querulous tone.",
+      "tip": "KWER-uh-lus",
+      "phonetic": "/querulous/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_44",
+      "word": "Refulgent",
+      "meaning": "Shining brightly",
+      "example": "Refulgent light.",
+      "tip": "ri-FUL-jent",
+      "phonetic": "/refulgent/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_45",
+      "word": "Sagacious",
+      "meaning": "Having good judgment",
+      "example": "A sagacious leader.",
+      "tip": "suh-GAY-shus",
+      "phonetic": "/sagacious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_46",
+      "word": "Torpor",
+      "meaning": "A state of physical inactivity",
+      "example": "A state of torpor.",
+      "tip": "TOR-per",
+      "phonetic": "/torpor/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_47",
+      "word": "Ubiquity",
+      "meaning": "The fact of appearing everywhere",
+      "example": "The ubiquity of smartphones.",
+      "tip": "yoo-BIK-wi-tee",
+      "phonetic": "/ubiquity/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_48",
+      "word": "Vicissitude",
+      "meaning": "A change of circumstances",
+      "example": "The vicissitudes of life.",
+      "tip": "vi-SIS-i-tood",
+      "phonetic": "/vicissitude/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_49",
+      "word": "Winsome",
+      "meaning": "Attractive or appealing",
+      "example": "A winsome smile.",
+      "tip": "WIN-sum",
+      "phonetic": "/winsome/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_50",
+      "word": "Xeric",
+      "meaning": "Containing little moisture",
+      "example": "A xeric environment.",
+      "tip": "ZEER-ik",
+      "phonetic": "/xeric/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_51",
+      "word": "Yare",
+      "meaning": "Quick and agile",
+      "example": "A yare vessel.",
+      "tip": "YAIR",
+      "phonetic": "/yɛər/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_52",
+      "word": "Zephyr",
+      "meaning": "A gentle breeze",
+      "example": "A soft zephyr.",
+      "tip": "ZEF-er",
+      "phonetic": "/zephyr/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_53",
+      "word": "Aplomb",
+      "meaning": "Self-confidence",
+      "example": "She handled it with aplomb.",
+      "tip": "uh-PLOM",
+      "phonetic": "/aplomb/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_54",
+      "word": "Blandishment",
+      "meaning": "A flattering statement",
+      "example": "Resist their blandishments.",
+      "tip": "BLAN-dish-ment",
+      "phonetic": "/blandishment/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_55",
+      "word": "Cognizant",
+      "meaning": "Having knowledge",
+      "example": "Cognizant of the risks.",
+      "tip": "KOG-ni-zant",
+      "phonetic": "/cognizant/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_56",
+      "word": "Desultory",
+      "meaning": "Lacking a plan",
+      "example": "A desultory conversation.",
+      "tip": "DES-ul-tor-ee",
+      "phonetic": "/desultory/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_57",
+      "word": "Equanimity",
+      "meaning": "Mental calmness",
+      "example": "Face adversity with equanimity.",
+      "tip": "ek-wuh-NIM-i-tee",
+      "phonetic": "/equanimity/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_58",
+      "word": "Fractious",
+      "meaning": "Irritable and quarrelsome",
+      "example": "A fractious child.",
+      "tip": "FRAK-shus",
+      "phonetic": "/fractious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_59",
+      "word": "Gossamer",
+      "meaning": "A fine, filmy substance",
+      "example": "Gossamer wings.",
+      "tip": "GOS-uh-mer",
+      "phonetic": "/gossamer/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_60",
+      "word": "Halcyon",
+      "meaning": "Denoting a period of happiness",
+      "example": "Halcyon days.",
+      "tip": "HAL-see-on",
+      "phonetic": "/halcyon/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_61",
+      "word": "Ineffable",
+      "meaning": "Too great to be expressed",
+      "example": "Ineffable joy.",
+      "tip": "in-EF-uh-bul",
+      "phonetic": "/ineffable/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_62",
+      "word": "Juggernaut",
+      "meaning": "A huge, powerful force",
+      "example": "A marketing juggernaut.",
+      "tip": "JUG-er-not",
+      "phonetic": "/juggernaut/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_63",
+      "word": "Kafkaesque",
+      "meaning": "Characteristically surreal",
+      "example": "A Kafkaesque bureaucracy.",
+      "tip": "kaf-kuh-ESK",
+      "phonetic": "/kafkaesque/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_64",
+      "word": "Lissome",
+      "meaning": "Thin, supple, and graceful",
+      "example": "A lissome dancer.",
+      "tip": "LIS-um",
+      "phonetic": "/lissome/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_65",
+      "word": "Maelstrom",
+      "meaning": "A powerful whirlpool",
+      "example": "A maelstrom of emotions.",
+      "tip": "MAYL-strom",
+      "phonetic": "/maelstrom/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_66",
+      "word": "Nadir",
+      "meaning": "The lowest point",
+      "example": "The nadir of his career.",
+      "tip": "NAY-der",
+      "phonetic": "/nadir/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_67",
+      "word": "Oblique",
+      "meaning": "Not explicit",
+      "example": "An oblique reference.",
+      "tip": "uh-BLEEK",
+      "phonetic": "/oblique/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_68",
+      "word": "Paean",
+      "meaning": "A song of praise",
+      "example": "A paean to joy.",
+      "tip": "PEE-an",
+      "phonetic": "/paean/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_69",
+      "word": "Quaff",
+      "meaning": "Drink heartily",
+      "example": "Quaff a pint of ale.",
+      "tip": "KWOF",
+      "phonetic": "/kwäf/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_70",
+      "word": "Rarefy",
+      "meaning": "Make less dense",
+      "example": "Rarefied air.",
+      "tip": "RAIR-uh-fy",
+      "phonetic": "/rarefy/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_71",
+      "word": "Sanguine",
+      "meaning": "Optimistic or positive",
+      "example": "A sanguine outlook.",
+      "tip": "SANG-gwin",
+      "phonetic": "/sanguine/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_72",
+      "word": "Transmute",
+      "meaning": "Change in form or nature",
+      "example": "Transmute lead into gold.",
+      "tip": "trans-MYOOT",
+      "phonetic": "/transmute/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_73",
+      "word": "Unctuous",
+      "meaning": "Excessively flattering",
+      "example": "An unctuous salesman.",
+      "tip": "UNGK-choo-us",
+      "phonetic": "/unctuous/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_74",
+      "word": "Vernacular",
+      "meaning": "Language spoken by ordinary people",
+      "example": "The local vernacular.",
+      "tip": "ver-NAK-yuh-ler",
+      "phonetic": "/vernacular/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_75",
+      "word": "Weltanschauung",
+      "meaning": "A particular philosophy of life",
+      "example": "A unique Weltanschauung.",
+      "tip": "VELT-ahn-shou-ung",
+      "phonetic": "/weltanschauung/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_76",
+      "word": "Xanthic",
+      "meaning": "Yellowish",
+      "example": "Xanthic flowers.",
+      "tip": "ZAN-thik",
+      "phonetic": "/xanthic/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_77",
+      "word": "Yclept",
+      "meaning": "By the name of",
+      "example": "A town yclept Stonehaven.",
+      "tip": "ee-KLEPT",
+      "phonetic": "/ɪˈklɛpt/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_78",
+      "word": "Zetetic",
+      "meaning": "Proceeding by inquiry",
+      "example": "A zetetic approach.",
+      "tip": "zuh-TET-ik",
+      "phonetic": "/zetetic/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_79",
+      "word": "Apostasy",
+      "meaning": "The abandonment of a belief",
+      "example": "Political apostasy.",
+      "tip": "uh-POS-tuh-see",
+      "phonetic": "/apostasy/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_80",
+      "word": "Bourgeois",
+      "meaning": "Middle class",
+      "example": "Bourgeois values.",
+      "tip": "boor-ZHWAH",
+      "phonetic": "/bourgeois/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_81",
+      "word": "Capricious",
+      "meaning": "Given to sudden changes",
+      "example": "A capricious climate.",
+      "tip": "kuh-PRISH-us",
+      "phonetic": "/capricious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_82",
+      "word": "Dilatory",
+      "meaning": "Slow to act",
+      "example": "Dilatory tactics.",
+      "tip": "DIL-uh-tor-ee",
+      "phonetic": "/dilatory/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_83",
+      "word": "Epiphany",
+      "meaning": "A moment of sudden revelation",
+      "example": "A creative epiphany.",
+      "tip": "i-PIF-uh-nee",
+      "phonetic": "/epiphany/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_84",
+      "word": "Fulminate",
+      "meaning": "Express vehement protest",
+      "example": "Fulminate against injustice.",
+      "tip": "FUL-mi-nate",
+      "phonetic": "/fulminate/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_85",
+      "word": "Hegemony",
+      "meaning": "Leadership or dominance",
+      "example": "Cultural hegemony.",
+      "tip": "hi-JEM-uh-nee",
+      "phonetic": "/hegemony/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_86",
+      "word": "Imbroglio",
+      "meaning": "A confused situation",
+      "example": "A political imbroglio.",
+      "tip": "im-BROHL-yoh",
+      "phonetic": "/imbroglio/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_87",
+      "word": "Jejune",
+      "meaning": "Naive and simplistic",
+      "example": "A jejune argument.",
+      "tip": "ji-JOON",
+      "phonetic": "/jejune/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_88",
+      "word": "Lacuna",
+      "meaning": "A gap or missing part",
+      "example": "A lacuna in the manuscript.",
+      "tip": "luh-KOO-nuh",
+      "phonetic": "/lacuna/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_89",
+      "word": "Mellifluous",
+      "meaning": "Sweet-sounding",
+      "example": "A mellifluous voice.",
+      "tip": "muh-LIF-loo-us",
+      "phonetic": "/mellifluous/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_90",
+      "word": "Nugatory",
+      "meaning": "Of no value",
+      "example": "A nugatory effort.",
+      "tip": "NOO-guh-tor-ee",
+      "phonetic": "/nugatory/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_91",
+      "word": "Ostracize",
+      "meaning": "Exclude from a society",
+      "example": "Ostracize the dissenter.",
+      "tip": "OS-truh-size",
+      "phonetic": "/ostracize/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_92",
+      "word": "Prolix",
+      "meaning": "Using too many words",
+      "example": "A prolix speaker.",
+      "tip": "pro-LIKS",
+      "phonetic": "/prolix/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_93",
+      "word": "Quiescent",
+      "meaning": "In a state of inactivity",
+      "example": "A quiescent volcano.",
+      "tip": "kwee-ES-ent",
+      "phonetic": "/quiescent/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_94",
+      "word": "Risible",
+      "meaning": "Provoking laughter",
+      "example": "A risible suggestion.",
+      "tip": "RIZ-uh-bul",
+      "phonetic": "/risible/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_95",
+      "word": "Supercilious",
+      "meaning": "Behaving as if superior",
+      "example": "A supercilious manner.",
+      "tip": "soo-per-SIL-ee-us",
+      "phonetic": "/supercilious/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_96",
+      "word": "Truculent",
+      "meaning": "Eager to argue",
+      "example": "A truculent attitude.",
+      "tip": "TRUK-yuh-lent",
+      "phonetic": "/truculent/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_97",
+      "word": "Usury",
+      "meaning": "The lending of money at high interest",
+      "example": "The sin of usury.",
+      "tip": "YOO-zhuh-ree",
+      "phonetic": "/usury/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_98",
+      "word": "Virago",
+      "meaning": "A domineering woman",
+      "example": "A shrewish virago.",
+      "tip": "vi-RAH-go",
+      "phonetic": "/virago/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_99",
+      "word": "Wizened",
+      "meaning": "Shriveled with age",
+      "example": "A wizened face.",
+      "tip": "WIZ-end",
+      "phonetic": "/wizened/",
+      "difficulty": "hard"
+    },
+    {
+      "id": "h_100",
+      "word": "Xenodochial",
+      "meaning": "Friendly to strangers",
+      "example": "A xenodochial culture.",
+      "tip": "zen-uh-DOH-kee-ul",
+      "phonetic": "/xenodochial/",
+      "difficulty": "hard"
+    }
+  ]
+}

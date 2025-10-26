@@ -13,18 +13,29 @@ import base64
 from typing import Dict, Any, List, Tuple, Optional
 import numpy as np
 import ollama
-
+import random
+import json
 import whisper
 
 # LLM evaluation imports
 from huggingface_hub import InferenceClient
-from datetime import datetime
+from datetime import datetime, timedelta
+
+# Firebase Admin SDK
+import firebase_admin
+from firebase_admin import credentials, db
 
 
 CONVERSATION_CONFIG = {
     "provider": "ollama",
     "model": "llama3.2",  # or "mistral", "phi3", etc.
 }
+
+WORD_DATABASE_PATH = '/DATA/mercylin/mdd_cluster_workspace/word_database.json'
+
+# Setup logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # TTS imports
 try:
@@ -64,6 +75,20 @@ try:
 except ImportError:
     print("Warning: improved_dynamic_mdd.py not found.")
     ImprovedDynamicMDD = None
+
+
+try:
+    # Path to your Firebase service account key JSON file
+    cred = credentials.Certificate('/DATA/mercylin/mispronunciation-e1fb0-firebase-adminsdk-fbsvc-fd6cb19e89.json')
+    
+    firebase_admin.initialize_app(cred, {
+        'databaseURL': 'https://mispronunciation-e1fb0-default-rtdb.firebaseio.com/'
+    })
+    
+    logger.info("✅ Firebase Admin SDK initialized successfully")
+except Exception as e:
+    logger.error(f"❌ Firebase initialization failed: {e}")
+    raise
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -120,6 +145,17 @@ AUDIO_CONFIG = {
 hf_client = None
 groq_client = None
 
+
+def load_word_database():
+    """Load words from JSON file"""
+    try:
+        with open(WORD_DATABASE_PATH, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        logger.error(f"Failed to load word database: {e}")
+        return {"easy": [], "intermediate": [], "hard": []}
+
+WORD_DATABASE = load_word_database()
 
 def generate_conversational_response(user_message: str, pronunciation_analysis: Dict[str, Any]) -> str:
     """Generate conversational AI response using Groq"""
@@ -4806,6 +4842,252 @@ def analyze_phonemes_batch():
         except:
             pass
         return jsonify({"success": False, "error": str(e)}), 500
+
+@app.route('/api/words/<difficulty>', methods=['GET'])
+def get_words_by_difficulty(difficulty):
+    """Get all words for a specific difficulty level"""
+    try:
+        if difficulty not in ['easy', 'intermediate', 'hard']:
+            return jsonify({
+                "success": False,
+                "error": "Invalid difficulty level"
+            }), 400
+        
+        words = WORD_DATABASE.get(difficulty, [])
+        
+        return jsonify({
+            "success": True,
+            "difficulty": difficulty,
+            "words": words,
+            "total_count": len(words)
+        })
+    
+    except Exception as e:
+        logger.error(f"Error getting words: {e}")
+        return jsonify({
+            "success": False,
+            "error": str(e)
+        }), 500
+
+
+@app.route('/api/daily-word-consistent', methods=['GET'])
+def get_daily_word_consistent():
+    """
+    Get daily word - same word for all users on the same day
+    Uses deterministic selection based on date
+    """
+    try:
+        # Get today's date as seed
+        today = datetime.now().date()
+        date_seed = int(today.strftime('%Y%m%d'))
+        
+        # Combine all words from all difficulties
+        all_words = []
+        for difficulty in ['easy', 'intermediate', 'hard']:
+            all_words.extend(WORD_DATABASE.get(difficulty, []))
+        
+        if not all_words:
+            return jsonify({
+                "success": False,
+                "error": "No words available"
+            }), 404
+        
+        # Use date as seed for consistent daily selection
+        random.seed(date_seed)
+        daily_word = random.choice(all_words)
+        
+        # Reset random seed
+        random.seed()
+        
+        return jsonify({
+            "success": True,
+            "word": daily_word,
+            "date": today.isoformat(),
+            "total_words": len(all_words)
+        })
+    
+    except Exception as e:
+        logger.error(f"Error getting daily word: {e}")
+        return jsonify({
+            "success": False,
+            "error": str(e)
+        }), 500
+
+
+@app.route('/api/user-progress/<user_id>/<difficulty>', methods=['GET'])
+def get_user_progress(user_id, difficulty):
+    """
+    Get user's current progress for a difficulty level
+    Returns next word to practice
+    """
+    try:
+        if difficulty not in ['easy', 'intermediate', 'hard']:
+            return jsonify({
+                "success": False,
+                "error": "Invalid difficulty level"
+            }), 400
+        
+        # Get all words for this difficulty
+        all_words = WORD_DATABASE.get(difficulty, [])
+        
+        if not all_words:
+            return jsonify({
+                "success": False,
+                "error": "No words available for this difficulty"
+            }), 404
+        
+        # Get user's completed words from Firebase
+        from firebase_admin import db
+        ref = db.reference(f'users/{user_id}/practiceWords/{difficulty}')
+        completed_words = ref.get() or {}
+        
+        # Find completed word IDs
+        completed_ids = {
+            word_id for word_id, data in completed_words.items()
+            if data.get('completed', False)
+        }
+        
+        # Find next uncompleted word
+        next_word = None
+        next_index = 0
+        
+        for idx, word in enumerate(all_words):
+            if word['id'] not in completed_ids:
+                next_word = word
+                next_index = idx
+                break
+        
+        # If all words completed, suggest first word again
+        if next_word is None and all_words:
+            next_word = all_words[0]
+            next_index = 0
+        
+        return jsonify({
+            "success": True,
+            "difficulty": difficulty,
+            "next_word": next_word,
+            "next_index": next_index,
+            "total_words": len(all_words),
+            "completed_count": len(completed_ids),
+            "completion_percentage": round((len(completed_ids) / len(all_words)) * 100, 1) if all_words else 0,
+            "all_completed": len(completed_ids) == len(all_words)
+        })
+    
+    except Exception as e:
+        logger.error(f"Error getting user progress: {e}")
+        return jsonify({
+            "success": False,
+            "error": str(e)
+        }), 500
+
+
+@app.route('/api/initialize-user-progress/<user_id>', methods=['POST'])
+def initialize_user_progress(user_id):
+    """
+    Initialize progress tracking for a new user
+    Creates empty progress entries for all words
+    """
+    try:
+        from firebase_admin import db
+        
+        for difficulty in ['easy', 'intermediate', 'hard']:
+            words = WORD_DATABASE.get(difficulty, [])
+            
+            for word in words:
+                word_ref = db.reference(f'users/{user_id}/practiceWords/{difficulty}/{word["id"]}')
+                
+                # Only initialize if doesn't exist
+                if word_ref.get() is None:
+                    word_ref.set({
+                        'wordId': word['id'],
+                        'word': word['word'],
+                        'completed': False,
+                        'attempts': 0,
+                        'bestScore': 0,
+                        'lastAttempted': None
+                    })
+        
+        return jsonify({
+            "success": True,
+            "message": "User progress initialized",
+            "user_id": user_id
+        })
+    
+    except Exception as e:
+        logger.error(f"Error initializing user progress: {e}")
+        return jsonify({
+            "success": False,
+            "error": str(e)
+        }), 500
+
+@app.route('/api/user-data/<user_id>/<difficulty>', methods=['GET'])
+def get_user_data_fast(user_id, difficulty):
+    """
+    Ultra-fast combined endpoint with minimal processing
+    """
+    try:
+        if difficulty not in ['easy', 'intermediate', 'hard']:
+            return jsonify({
+                "success": False,
+                "error": "Invalid difficulty level"
+            }), 400
+        
+        # Get words directly from database (no processing)
+        all_words = WORD_DATABASE.get(difficulty, [])
+        
+        if not all_words:
+            return jsonify({
+                "success": False,
+                "error": "No words available"
+            }), 404
+        
+        # Get user progress with minimal Firebase calls
+        ref = db.reference(f'users/{user_id}/practiceWords/{difficulty}')
+        completed_words = ref.get() or {}
+        
+        # Fast completion check
+        completed_ids = set()
+        for word_id, data in completed_words.items():
+            if data and data.get('completed', False):
+                completed_ids.add(word_id)
+        
+        # Find next word efficiently
+        next_word = None
+        next_index = 0
+        completed_count = 0
+        
+        for idx, word in enumerate(all_words):
+            if word['id'] in completed_ids:
+                completed_count += 1
+            elif next_word is None:
+                next_word = word
+                next_index = idx
+        
+        # If all completed, use first word
+        if next_word is None and all_words:
+            next_word = all_words[0]
+            next_index = 0
+        
+        completion_percentage = round((completed_count / len(all_words)) * 100, 1) if all_words else 0
+        
+        return jsonify({
+            "success": True,
+            "difficulty": difficulty,
+            "words": all_words,
+            "total_words": len(all_words),
+            "next_word": next_word,
+            "next_index": next_index,
+            "completed_count": completed_count,
+            "completion_percentage": completion_percentage,
+            "all_completed": completed_count == len(all_words)
+        })
+    
+    except Exception as e:
+        logger.error(f"Error in fast user data: {e}")
+        return jsonify({
+            "success": False,
+            "error": str(e)
+        }), 500
     
 if __name__ == "__main__":
     print_banner("STARTING DUAL-MODEL PRONUNCIATION SERVER", "=", 80)
